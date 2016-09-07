@@ -2,13 +2,13 @@
 Python lesson 2: Data types, lists, indices, other arithmetic operators, and creating your own scripts
 
 ## Lesson overview
-- Intro to GitHub (30 minutes)
-- Classroom for GitHub (5 minutes)
-- Data types (5 minutes)
-- Lists and indices (15 minutes)
-- Concept of objects (5 minutes)
-- Writing script files (10-15 minutes)
-- Play time - Exercise 2 (15-20 minutes)
+- Intro to GitHub (30 minutes) - HT
+- Classroom for GitHub (5 minutes) - DW
+- Data types (5 minutes) - DW
+- Lists and indices (15 minutes) - DW
+- Concept of objects (5 minutes) - DW
+- Writing script files (10-15 minutes) - DW
+- Play time - Exercise 2 (15-20 minutes) - DW/HT
 
 
 ## Data types revisited
