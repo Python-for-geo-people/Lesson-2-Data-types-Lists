@@ -15,7 +15,7 @@ These materials are inspired and partially based on Software Carpentry's lesson 
 
 _Source: “Piled Higher and Deeper” by Jorge Cham_, http://www.phdcomics.com 
 
-**Wouldn't it be nice to learn how to avoid this situation!?!?"
+**Wouldn't it be nice to learn how to avoid this situation!?!?**
 
 We’ve all been in this situation before: it seems ridiculous to have multiple nearly-identical versions of the same document. 
 Some word processors let us deal with this a little better, such as Microsoft Word’s “Track Changes”.
