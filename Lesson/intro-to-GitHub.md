@@ -38,7 +38,7 @@ It allows you to decide which changes make up the next version, called a commit,
 The complete history of commits for a particular project and their metadata make up a repository (such as our course material repositories). 
 Repositories can be kept in sync across different computers facilitating also collaboration among different people.
 
-There are multiple different Version Control Systems (VCS) (i.e. a software for doing version control) but one of the most popular one is [Git](https://en.wikipedia.org/wiki/Git_(software)
+There are multiple different Version Control Systems (VCS) (i.e. a software for doing version control) but one of the most popular one is [Git](https://en.wikipedia.org/wiki/Git_(software) )
 that was created by Linus Torvalds in 2005. Git is the version control system that is running behind the scenes and used with GitHub. And that's actually where its
 name 'Git - Hub' originates from. 
 
