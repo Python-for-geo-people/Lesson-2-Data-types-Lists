@@ -23,7 +23,7 @@ desktop or typing in the terminal:
 It may take a minute or two to open. In Windows you should have an application you can launch from the Start Menu, and on a Mac you can open the Anaconda Launcher on your Desktop and find Spyder there.
 - **Load the "starter" code in Spyder**. Once you open Spyder you should see something like the window below.
 
-    ![Spyder](Images/Spyder.png)<br/>
+    ![Spyder](../img/Spyder.png)<br/>
 You can open your code in Spyder by going to "File -> Open..." in the Menubar. Select the code you downloaded and you're ready to start editing.
 - **Make changes and test**. You can edit your Python code in Spyder just like a normal editor and make whatever changes you would like. After you have made some changes and would like to test them, save your file using "File -> Save" in the Menubar. Now you can have Spyder run your code by clicking on the green play button at the top of the window or pressing the F5 key. Your code will run and the results (plots, printed text, errors, etc.) will be output to the IPython console on the bottom right panel. If you need more space to see the console, you can drag the margins on the console frame to make it bigger.
 - **Upload your modified code**. After you have made some change to the code that you want to save, you should upload a copy to your assignment repository on Github. You can do this by clicking on the **Upload files** button on the main page of the assignment repository and selecting the Python code you have been editing on your computer. When you upload the file, be sure to include a nice short commit message in the **Commit changes** box stating what you changed in the code since the last time you uploaded. To save the changes you click the **Commit changes** button. You are encouraged to upload a new copy of the Python code **every time** you make a change, such as fixing one of the problems in the starter code.
@@ -33,12 +33,12 @@ In your assignment repository you have a document titled `README.md` that contai
 
 1. **Open the `README.md` for editing**. Click on the `README.md` in the list of files in the assignment repository, and then click on the **pencil icon** in the toolbar above the `README.md` to edit the document. The toolbar should look like the image below.
 
-    ![Editing toolbar](Images/Edit-README.png)
+    ![Editing toolbar](../img/Edit-README.png)
 
 2. **Make your changes**. After you click on the **pencil icon** you will see the Markdown version of the assignment document, and this is what you should edit. At the bottom of the `README.md` you will find a section that starts with `# Answers`. This is the section you should edit to add answers and plots for the assignment problems. Adding *italics* and **bold** text is easy, and if you would like more information on formatting you should take a look at the Github page on [Github-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
 3. **Preview your changes**. After you have made your changes, it is a good idea to click on **Preview changes** to make sure the changes you have made are formatted the way you expect. Markdown is pretty easy to use, but sometimes things don't end up looking the way you might like. **Preview changes** is in the editing bar above the document text, as shown below.
 
-    ![Preview changes](Images/Preview-changes.png)
+    ![Preview changes](../img/Preview-changes.png)
 
 4. **Save your changes**. After you are done editing, you can save your changes by adding a commit message and clicking on the **Commit changes** button. As above, it is a good idea to make a short note of what you changed when you make changes in the **Commit changes** box.
 5. **Check out the "pro" tips**. Below you will find some tips for using Github that will help you produce nicer looking plots and Markdown files, and to get the most out of using a resource like Github.
@@ -49,7 +49,7 @@ Below is a short list of tips that might help you in preparing your answers for 
 - **Save your stuff often**! You are strongly encouraged to commit (save) your changes regularly. For instance, each time you fix one of the issues in the "starter" Python code, you should upload a new copy and commit the changes with a short commit message. It might seem like extra work, but you can always go back to earlier versions of what you have saved on Github, so making frequent saves will ensure that you can find an older, working version of code in the event that you accidentally delete part of the code or otherwise break things.
 - **You can always go back**. One of the best things about using Github is that you are able to go back to previous versions of the documents you save. For instance, if you decide to remove a `for` loop from your Python code, and later realize this was [a huge mistake](https://youtu.be/46Kv4rBJi68), you will be able to go back to earlier versions of the Python code that have been saved in Github. To go back to an earlier version simply click on the **History button** for one of the files in your Github repository, as shown below.
 
-    ![History button](Images/Edit-README.png)
+    ![History button](../img/Edit-README.png)
 Once you pull up the document history you can click on the hash (the set of 7 numbers/letters listed to the right of a given version) to see the changes made for that save, or click on the `<>` button to see the version of the file at that time in the past.
 - If you want to put you images into your answers document (`README.md`), I encourage you to upload copies of the images to the `Images` directory and then embed them using the Markdown format for images:
 
