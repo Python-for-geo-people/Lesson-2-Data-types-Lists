@@ -7,14 +7,14 @@ Course Environment and version control with GitHub.
 ## Lesson overview 
 **NOTE: I kept the whole list here for now but remove Python basic elements links from this lists when done**
 - [Intro to version control and GitHub]() (30 minutes) - HT
-- [Log into GitHub](log-in-GitHub.md) 
-- [Classroom for GitHub](GitHub-classroom.md) (5 minutes) - DW
-- [Intro to some basic elements of Python (part I)](python-basic-elements1.md)
+- [Log into GitHub](Lesson/log-in-GitHub.md) 
+- [Classroom for GitHub](Lesson/GitHub-classroom.md) (5 minutes) - DW
+- [Intro to some basic elements of Python (part I)](Lesson/python-basic-elements1.md)
 - [Data types](#dtypes) (5 minutes) - DW
 - [Lists and indices](#lists) (15 minutes) - DW
 - [Concept of objects](#objects) (5 minutes) - DW
 - [Writing script files](#scripts) (10-15 minutes) - DW
-- [How to work on the assignments?](working-on-assignment.md)
+- [How to work on the assignments?](Lesson/working-on-assignment.md)
 - [Play time - Exercise 2](https://github.com/Python-for-geo-people/Exercise-2) (15-20 minutes) - DW/HT
 
  
