@@ -1,22 +1,23 @@
 # Diving-into-Python
 Python lesson 2: Data types, lists, indices, other arithmetic operators, and creating your own scripts
 
+During the second week we will dive into Python and learn some basic elements of Python programming language. We will also continue learning how to use the
+Course Environment and version control with GitHub. 
+
 ## Lesson overview
 - [Intro to version control and GitHub]() (30 minutes) - HT
 - [Log into GitHub](log-in-GitHub.md) 
 - [Classroom for GitHub](GitHub-classroom.md) (5 minutes) - DW
-- Data types (5 minutes) - DW
-- Lists and indices (15 minutes) - DW
-- Concept of objects (5 minutes) - DW
-- Writing script files (10-15 minutes) - DW
+- [Data types](#dtypes) (5 minutes) - DW
+- [Lists and indices](#lists) (15 minutes) - DW
+- [Concept of objects](#objects) (5 minutes) - DW
+- [Writing script files](#scripts) (10-15 minutes) - DW
 - [How to work on the assignments?](working-on-assignment.md)
-- Play time - Exercise 2 (15-20 minutes) - DW/HT
-
+- [Play time - Exercise 2](https://github.com/Python-for-geo-people/Exercise-2) (15-20 minutes) - DW/HT
 
  
-  
 
-## Data types revisited
+##<a name='dtypes'></a> Data types revisited
 1. We can start by defining a few variables.
     ```python
     ...
@@ -57,9 +58,28 @@ The data types are displayed when using `%whos`, but can also be found using the
     TypeError: can't multiply sequence by non-int of type 'float'
     ```
 
-## Lists and indices
+##<a name='lists'></a> Lists and indices
 
-## The concept of objects
+##<a name='objects'></a> The concept of objects
+
+##<a name='scripts'></a> Writing your own Python scripts
+As you may be noticing by now, it isn't that convenient to type in all of the commands you would like to use in the IPython interpreter window, particularly when you start using loops.
+An alternative to typing in all of the commands you would like to run is the list them in a Python script file.
+A Python script file is simple a file containing a list of the command you would like to run, with one command per line, and formatted in the same way as if you were to type them in.
+
+### Notes for instructors
+We should probably provide some kind of simple template here for writing **basic** Python scripts "the right way".
+It could be a simplified version of [something like this](https://gist.github.com/nhoffman/3006600).
+For me, this would include (at least):
+
+1. A comment block at the start of the script using block comments (`'''`). This should give the basic information about what the script does in a semi-Pythonic way.
+2. Inline comments (`#`) for the different sections of the code (and possibly on most lines) to clearly state how the code works.
+
+To start, I think it would be good to avoid things like using a `main()` function and some of the other Python practices that might make it harder to understand how the script works in a simple way.
+Avoiding `main()` is also nice because when students use **Spyder** they will be able to see the variable values in the variable browser.
+
+
+# BELOW GOES TO NEXT WEEK!
 
 ## `for` loops
 Loops allow parts of code to be repeated over some number of times.
@@ -173,18 +193,3 @@ What happens here? Well, in this case, we use a special function called `range()
     ```
 So, what happened? We first create and array of length 10 and fill it with zeros using `np.zeros()`. Then, we loop over 10 values using the `range()` function and add each value to the existing location in `myarray`. What would happen if we ran this for loop a second time?
 
-## Writing your own Python scripts
-As you may be noticing by now, it isn't that convenient to type in all of the commands you would like to use in the IPython interpreter window, particularly when you start using loops.
-An alternative to typing in all of the commands you would like to run is the list them in a Python script file.
-A Python script file is simple a file containing a list of the command you would like to run, with one command per line, and formatted in the same way as if you were to type them in.
-
-### Notes for instructors
-We should probably provide some kind of simple template here for writing **basic** Python scripts "the right way".
-It could be a simplified version of [something like this](https://gist.github.com/nhoffman/3006600).
-For me, this would include (at least):
-
-1. A comment block at the start of the script using block comments (`'''`). This should give the basic information about what the script does in a semi-Pythonic way.
-2. Inline comments (`#`) for the different sections of the code (and possibly on most lines) to clearly state how the code works.
-
-To start, I think it would be good to avoid things like using a `main()` function and some of the other Python practices that might make it harder to understand how the script works in a simple way.
-Avoiding `main()` is also nice because when students use **Spyder** they will be able to see the variable values in the variable browser.
