@@ -114,7 +114,6 @@ will be saved as commits. It is also possible to browse the whole history of a f
 Usually Git (the software) is run from the command prompt but GitHub provides a way to do Git commands 
 without the need to run any commands in the terminal. There are, however, also other graphical user interfaces for Git that comes with 
 some [Integrated Development Environments (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). 
-    
   
 **Issue tracking**
 
