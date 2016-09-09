@@ -13,7 +13,7 @@ Course Environment and version control with GitHub.
 - [Data types](#dtypes) (5 minutes) - DW
 - [Lists and indices](#lists) (15 minutes) - DW
 - [Concept of objects](#objects) (5 minutes) - DW
-- [Writing script files](#scripts) (10-15 minutes) - DW
+- [Writing script files](Lesson/writing-scripts.md) (10-15 minutes) - DW
 - [How to work on the assignments?](Lesson/working-on-assignment.md)
 - [Play time - Exercise 2](https://github.com/Python-for-geo-people/Exercise-2) (15-20 minutes) - DW/HT
 
