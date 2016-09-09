@@ -28,7 +28,7 @@ Version control systems start with a base version of the document and then save 
 of the way. You can think of it as a tape: if you rewind the tape and start at the base document, then you can play back 
 each change and end up with your latest version.
 
-![Illustration of committing changes](../img/play-changes.svg)
+![Illustration of committing changes](../img/play-changes.PNG)
 
 A version control system is a tool that keeps track of these changes for us and helps us version our files (_and merge_ - not covered in this course). 
 It allows you to decide which changes make up the next version, called a commit, and keeps useful metadata about them. 
