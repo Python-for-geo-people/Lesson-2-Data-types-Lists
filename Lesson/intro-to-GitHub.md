@@ -77,7 +77,7 @@ Now that you know the basics of version control we can dive into explaining what
 
 **Relies on Git**
 
-GitHub in principle is a web based Git repository hosting service, thus it
+GitHub in principle is a web based Git repository hosting service. Thus it
 wouldn't exist without the version control system Git. Git is also running all the time in the background when using GitHub.   
 
 **Social (collaborative) network**
@@ -96,14 +96,20 @@ for example. Sharing your work publicly to others is also the basic principle of
 
 **Documentation**
 
-GitHub repositories are often also used as web pages for different projects. Using specific MarkDown  
+GitHub repositories are often also used as web pages for different projects. In GitHub such web pages typically include technical documentation, 
+instructions and examples how to use the codes or software shared on that page. **It is extremely important that you document well your codes and programs that you
+have done!** GitHub provides a nice platform for doing and sharing such documentation.  
+
+Each repository (and possibly its subfolders) includes a file called `README.md` that by default is 
+the front-page of the given repository in GitHub. Those files are written using a specific simple language called 
+[Markdown](https://daringfireball.net/projects/markdown/) that can be used to create nice looking web pages with different formattings, figures, tables and so on. 
+Markdown is really easy to use once you have learned the basic syntax of how different textual elements are written.  
  
 **Online tools**
  
-There are multiple useful tools integrated into GitHub such as possibility to edit the documents or codes directly from the web site. What is even better is that Git is
-always running in background also in the web environment, and all your changes made in the web browser will be saved as commits. It is also possible to browse the 
-whole history of a file directly from the GitHub's online interface.    
- 
+There are multiple useful tools integrated into GitHub such as possibility to edit the documents or codes directly from the web site. 
+What is even better is that Git is always running in background also in the web environment, and all your changes made in the web browser 
+will be saved as commits. It is also possible to browse the whole history of a file directly from the GitHub's online interface and track the changes that you have done.    
   
 
 ##<a name='resources'></a> Resources
