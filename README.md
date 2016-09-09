@@ -13,7 +13,6 @@ Course Environment and version control with GitHub.
 - [Writing script files](Lesson/writing-scripts.md) (10-15 minutes) - DW
 - [Working on the assignments](Lesson/working-on-assignment.md)
 - [Play time - Exercise 2](https://github.com/Python-for-geo-people/Exercise-2) (15-20 minutes) - DW/HT
-
  
 ### Notes for instructors
 We should probably provide some kind of simple template here for writing **basic** Python scripts "the right way".
