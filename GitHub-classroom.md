@@ -1,6 +1,6 @@
 # Using Classroom for Github
 For the remaining exercises in the course we are using [Classroom for Github](https://github.com/education/classroom). 
-Here, We'll give you a sense of how Classroom for Github works and what you need to do to accept your assignments and turn in the exercises.
+Here, we'll give you a sense of how Classroom for Github works and what you need to do to accept your assignments.
 
 ## Classroom for Github
 Classroom for Github is basically an application that helps you make private copies of an assignment that you can modify and 
