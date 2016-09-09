@@ -6,7 +6,7 @@ These materials are inspired and partially based on Software Carpentry's lesson 
 
 - [Motivation](#motivation)
 - [What is version control and why to use it?](#vcs-idea)
-- [What is GitHub?]()
+- [What is GitHub?](#GitHub)
 - [Resources](#resources)
 
 ##<a name='motivation'></a> Familiar?  
@@ -38,7 +38,7 @@ It allows you to decide which changes make up the next version, called a commit,
 The complete history of commits for a particular project and their metadata make up a repository (such as our course material repositories). 
 Repositories can be kept in sync across different computers facilitating also collaboration among different people.
 
-There are multiple different Version Control Systems (VCS) (i.e. a software for doing version control) but one of the most popular one is [Git](https://en.wikipedia.org/wiki/Git_(software) )
+There are multiple different Version Control Systems (VCS) (i.e. a software for doing version control) but one of the most popular one is **[Git](https://en.wikipedia.org/wiki/Git_(software) )**
 that was created by Linus Torvalds in 2005. Git is the version control system that is running behind the scenes and used with GitHub. And that's actually where its
 name 'Git - Hub' originates from. 
 
@@ -57,8 +57,9 @@ Few basic terms that are used often when discussing about version control (not e
  - **Repository** = a location where all the files for a particular project are stored, usually abbreviated to “repo.” 
  Each project will have its own repo, which is usually located on a server and can be accessed by a unique URL (a link to GitHub page for example).
  
- - **Commit** = To commit is to write or merge the changes made in the working copy back to the repository. 
- The terms 'commit' or 'checkin' can also be used as nouns to describe the new revision that is created as a result of committing.
+ - **Commit** = To commit is to write or merge the changes made in the working copy back to the repository. Whe you commit, you are basically taking a “snapshot”
+  of your repository at that point in time, giving you a checkpoint to which you can reevaluate or restore your project to any previous state.
+  The terms 'commit' or 'checkin' can also be used as nouns to describe the new revision that is created as a result of committing.
  
  - **Revision / version** = A revision or a version is any change in made in any form to a document(s). 
   
@@ -69,6 +70,41 @@ Few basic terms that are used often when discussing about version control (not e
  Fetch is sometimes used as a synonym for pull, or to mean a pull followed by an update.
  
  - **Merge** = A merge or integration is an operation in which two sets of changes are applied to a file or set of files.
+
+##<a name="GitHub"></a> What is GitHub?
+
+Now that you know the basics of version control we can dive into explaining what GitHub is.
+
+**Relies on Git**
+
+GitHub in principle is a web based Git repository hosting service, thus it
+wouldn't exist without the version control system Git. Git is also running all the time in the background when using GitHub.   
+
+**Social (collaborative) network**
+
+However, GitHub is much more than just a hosting service for Git repositories as it is also a social network
+where people can collaborate with each other. It is also easy to invite other GitHub users to work with the same project.
+GitHub is a highly popular place for sharing codes openly to the entire world or alternatively 
+only to the collaborators working on the same project. 
+
+**Open source / science**
+
+All publicly available repositories can also be downloaded to your own local computer where you can 
+start modifying the codes for your own purpose which is called "forking". However, you should always check and follow the license terms mentioned in the 
+project that basically tells you what you can do (and what not) with the codes that are shared. Usually there might be some limitations for commercial use of the codes
+for example. Sharing your work publicly to others is also the basic principle of open science.
+
+**Documentation**
+
+GitHub repositories are often also used as web pages for different projects. Using specific MarkDown  
+ 
+**Online tools**
+ 
+There are multiple useful tools integrated into GitHub such as possibility to edit the documents or codes directly from the web site. What is even better is that Git is
+always running in background also in the web environment, and all your changes made in the web browser will be saved as commits. It is also possible to browse the 
+whole history of a file directly from the GitHub's online interface.    
+ 
+  
 
 ##<a name='resources'></a> Resources
 
