@@ -6,7 +6,7 @@ Course Environment and version control with GitHub.
 
 ## Lesson overview 
 
-- [Intro to version control and GitHub]() (30 minutes) - HT
+- [Intro to version control and GitHub](Lesson/intro-to-GitHub.md) (30 minutes) - HT
 - [Log into GitHub](Lesson/log-in-GitHub.md) 
 - [Classroom for GitHub](Lesson/GitHub-classroom.md) (5 minutes) - DW
 - [Intro to some basic elements of Python (part I)](Lesson/python-basic-elements1.md) (25 minutes) - DW
