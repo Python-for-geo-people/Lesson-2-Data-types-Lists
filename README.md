@@ -4,10 +4,12 @@ Python lesson 2: Data types, lists, indices, other arithmetic operators, and cre
 During the second week we will dive into Python and learn some basic elements of Python programming language. We will also continue learning how to use the
 Course Environment and version control with GitHub. 
 
-## Lesson overview
+## Lesson overview 
+**NOTE: I kept the whole list here for now but remove Python basic elements links from this lists when done**
 - [Intro to version control and GitHub]() (30 minutes) - HT
 - [Log into GitHub](log-in-GitHub.md) 
 - [Classroom for GitHub](GitHub-classroom.md) (5 minutes) - DW
+- [Intro to some basic elements of Python (part I)](python-basic-elements1.md)
 - [Data types](#dtypes) (5 minutes) - DW
 - [Lists and indices](#lists) (15 minutes) - DW
 - [Concept of objects](#objects) (5 minutes) - DW
@@ -16,57 +18,6 @@ Course Environment and version control with GitHub.
 - [Play time - Exercise 2](https://github.com/Python-for-geo-people/Exercise-2) (15-20 minutes) - DW/HT
 
  
-
-##<a name='dtypes'></a> Data types revisited
-1. We can start by defining a few variables.
-    ```python
-    ...
-    ```
-
-2. One of the nice options in IPython is that you can see which variables are in memory by typing `%whos`.
-
-```python
->>> %whos
-Variable                  Type      Data/Info
----------------------------------------------
-TemperatureInFahrenheit   float     59.0
-temp_celsius              float     20.0
-```
-
-3. There are 4 basic *data types* in Python as shown in the table below.
-
-    | Data type name | Data type            | Example         |
-    | -------------- | -------------------- | --------------- |
-    | `int`          | Whole integer values | `4`             |
-    | `float`        | Decimal values       | `3.1415`        |
-    | `str`          | Character strings    | `'Hot'`         |
-    | `bool`         | True/false values    | `True`          |
-The data types are displayed when using `%whos`, but can also be found using the `type()` function. As you will see, the data types are important because some are not compatible with one another.
-
-    ```python
-    >>> WeatherForecast = 'Hot'
-    >>> type(WeatherForecast)
-    str
-    >>> type(TemperatureInFahrenheit)
-    float
-    >>> TemperatureInFahrenheit = TemperatureInFahrenheit + 5.0 * WeatherForecast
-    ---------------------------------------------------------------------------
-    TypeError                                 Traceback (most recent call last)
-    <ipython-input-21-7046bdc97a54> in <module>()
-    ----> 1 TemperatureInFahrenheit = TemperatureInFahrenheit + 5.0 * WeatherForecast
-
-    TypeError: can't multiply sequence by non-int of type 'float'
-    ```
-
-##<a name='lists'></a> Lists and indices
-
-##<a name='objects'></a> The concept of objects
-
-##<a name='scripts'></a> Writing your own Python scripts
-As you may be noticing by now, it isn't that convenient to type in all of the commands you would like to use in the IPython interpreter window, particularly when you start using loops.
-An alternative to typing in all of the commands you would like to run is the list them in a Python script file.
-A Python script file is simple a file containing a list of the command you would like to run, with one command per line, and formatted in the same way as if you were to type them in.
-
 ### Notes for instructors
 We should probably provide some kind of simple template here for writing **basic** Python scripts "the right way".
 It could be a simplified version of [something like this](https://gist.github.com/nhoffman/3006600).
