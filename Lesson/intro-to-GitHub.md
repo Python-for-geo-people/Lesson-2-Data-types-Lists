@@ -12,7 +12,8 @@ These materials are inspired and partially based on Software Carpentry's lesson 
 ##<a name='motivation'></a> Familiar?  
 
 ![Motivation for version control](../img/version_control_motivation_comics.png)
-_Source: “Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com _
+
+_Source: “Piled Higher and Deeper” by Jorge Cham_, http://www.phdcomics.com 
 
 **Wouldn't it be nice to learn how to avoid this situation!?!?"
 
