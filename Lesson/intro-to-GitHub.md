@@ -30,7 +30,8 @@ each change and end up with your latest version.
 
 ![Illustration of committing changes](../img/play-changes.PNG)
 
-A version control system is a tool that keeps track of these changes for us and helps us version our files (_and merge_ - not covered in this course). 
+A version control system is a tool that keeps track of these changes for us and helps us version our files 
+(_[and merge](https://en.wikipedia.org/wiki/Merge_(version_control))_- not covered in this course). 
 It allows you to decide which changes make up the next version, called a commit, and keeps useful metadata about them. 
 The complete history of commits for a particular project and their metadata make up a repository (such as our course material repositories). 
 Repositories can be kept in sync across different computers facilitating also collaboration among different people.
