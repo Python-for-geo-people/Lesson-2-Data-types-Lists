@@ -111,8 +111,14 @@ There are multiple useful tools integrated into GitHub such as possibility to ed
 What is even better is that Git is always running in background also in the web environment, and all your changes made in the web browser 
 will be saved as commits. It is also possible to browse the whole history of a file directly from the GitHub's online interface and track the changes that you have done.    
   
+**Issue tracking**
+
+In GitHub it is also possible to give feedback to the developer by creating a specific "Issue" that can be used to report for example a bug that was found in the code or software.
+Issues can also be used to track ideas, enhancements, tasks for projects on GitHub. You can use Issues also to organize tasks you'd like to accomplish, 
+such as adding new features or auditing old ones.
 
 ##<a name='resources'></a> Resources
 
 - [Screencast series in Youtube for learning GitHub](https://www.youtube.com/playlist?list=PL4Q4HssKcxYsTuqUUvEHJ8XxOVOHTSmle) 
 - [Tutorial on few extra features of GitHub not (most probably) covered in this course (e.g. branch, pull-request, merge)](https://guides.github.com/activities/hello-world/)
+- [A TechCrunch article about 'What is GitHub Anyway?'](https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/)
