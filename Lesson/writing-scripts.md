@@ -15,6 +15,7 @@ You're now ready to proceed.
 ## The general concept of a `.py` script file
 A Python script file is simply a list of commands that you might otherwise type into the IPython interpreter window.
 As such, we can quite easily create a basic script file and test things out.
+
 1. Start by copying and pasting the text below into your **gedit** window.
 
     ```python
@@ -46,11 +47,16 @@ Go back to **gedit** and edit the script so that it now reads
     ```
 Save your changes.
 5. Once again, go back to the IPython interpreter and use the `%run` magic command to run the modified script.
+Don't worry, we'll cover a much better way to edit and test scripts later in today's lesson.
 
     ```python
     >>> %run sampleinfo.py
     Sample DW-NP-48-16 is a 6.89 pound chunk of Mica schist
     ```
+
+## Writing our scripts the "right" way
+So we have an example above of a Python script that works, but there are a number of additions that could be made to improve even this simple script.
+1. 
 
 ## General format
 We should probably provide some kind of simple template here for writing **basic** Python scripts "the right way".
