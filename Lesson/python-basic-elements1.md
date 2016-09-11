@@ -16,7 +16,7 @@ We can store this ipnformation and some additional information about the samples
     ```python
     SampleID = 'DW-NP-48-16'
     SampleNumber = 48
-    SampleMassLbs = 6.89
+    SampleWeightLbs = 6.89
     SampleRockType = 'Mica schist'
     ```
 Here we have 4 values assigned to variables related to a single rock sample.
@@ -36,7 +36,7 @@ As you will see, the data types are important because some are not compatible wi
     ```python
     >>> type(SampleNumber)
     int
-    >>> type(SampleMassLbs)
+    >>> type(SampleWeightLbs)
     float
     >>> type(SampleRockType)
     str
@@ -46,30 +46,30 @@ As you will see, the data types are important because some are not compatible wi
 The main reason is that some types of data are compatible with one another, while others are not.
 
     ```python
-    >>> SampleMassLbs * 25     # Estimate mass of 25 samples
+    >>> SampleWeightLbs * 25     # Estimate weight of 25 samples
     172.25
-    >>> SampleMassLbs / 2.2    # Calculate sample mass in pounds
+    >>> SampleWeightLbs / 2.2    # Calculate sample weight in pounds
     3.1318181818181814
     ```
 In Python 3 is it generally not a problem to multiply or divide `int` and `float` variables.
 As you might expect, you can also multiply them by themselves.
 
     ```python
-    >>> SampleMassLbs * SampleMassLbs
+    >>> SampleWeightLbs * SampleWeightLbs
     47.4721
     ```
 The trouble can arise when trying to use mathematical operations with incompatible data types.
 
     ```python
-    >>> SampleMassLbs + SampleID
+    >>> SampleWeightLbs + SampleID
     ---------------------------------------------------------------------------
     TypeError                                 Traceback (most recent call last)
     <ipython-input-20-75e50db6ddf4> in <module>()
-    ----> 1 SampleMassLbs + SampleID
+    ----> 1 SampleWeightLbs + SampleID
 
     TypeError: unsupported operand type(s) for +: 'float' and 'str'
     ```
-Here we get a `TypeError` because Python does not know how we are expected to combine a string of characters (`SampleID`) with a decimal value number (`SampleMassLbs`).
+Here we get a `TypeError` because Python does not know how we are expected to combine a string of characters (`SampleID`) with a decimal value number (`SampleWeightLbs`).
 
 4. Interestingly, some operations combining numbers and `str` values will work.
 
@@ -86,7 +86,7 @@ Here the values in the `SampleID` variable are simply repeated 3 times.
     Variable         Type     Data/Info
     -----------------------------------
     SampleID         str      DW-NP-48-16
-    SampleMassLbs    float    6.89
+    SampleWeightLbs  float    6.89
     SampleNumber     int      48
     SampleRockType   str      Mica schist
     ```
@@ -193,7 +193,7 @@ We simply replace the value at the corresponding location in the list with the c
 Let's consider that in addition to having a list of each sample ID, sample number, rock type, etc. we would like to have a list of all of the values for sample 'DW-NP-48-16'.
 
     ```python
-    >>> Sample48 = [SampleID, SampleNumber, SampleMassLbs, SampleRockType]
+    >>> Sample48 = [SampleID, SampleNumber, SampleWeightLbs, SampleRockType]
     >>> print(Sample48)
     ['DW-NP-48-16', 48, 6.89, 'Mica schist']
     ```
@@ -207,7 +207,7 @@ We can confirm this using the `type()` function.
     str
     >>> type(Sample48[1]     # The sample number
     int
-    >>> type(Sample48[2])    # The sample mass
+    >>> type(Sample48[2])    # The sample weight
     float
     ```
 7. Finally, we can add and remove values from lists to change their lengths.
