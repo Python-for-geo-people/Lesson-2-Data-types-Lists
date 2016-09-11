@@ -93,5 +93,59 @@ We will see other magic commands as we learn more Python.
 They're useful!
 
 ## Lists and indices
+As we've seen above, my recent field excursion involved collecting (at least) 48 rock samples.
+Rather than having individual variables for each of those samples, we can store many related values in a *collection*.
+The simplest type of *collection* in Python is a **list**.
+
+1. Let's first create a list of selected `SampleID` values.
+
+    ```python
+    >>> SampleIDs = ['DW-NP-03-16', 'DW-NP-12-16', 'DW-NP-33-16', 'DW-NP-48-16']
+    >>> print(SampleIDs)
+    ['DW-NP-03-16', 'DW-NP-12-16', 'DW-NP-33-16', 'DW-NP-48-16']
+    >>> type(SampleIDs)
+    list
+    ```
+Here we have a list of 4 `SampleID` values in a list called `SampleIDs`.
+As you can see, the `type()` function recognizes this as a list.
+Lists can be created using the square brackets (`[` and `]`), with commas separating the values in the list.
+2. To access an individual value in the list we need to use an **index value**.
+An **index value** is a number that refers to a given position in the list.
+Let's check out the first value in our list as an example:
+
+    ```python
+    >>> print(SampleIDs[1])
+    'DW-NP-12-16'
+    ```
+Wait, what?
+This is the second value in the list we've created, what is wrong?
+As it turns out, Python (and many other programming languages) start values stored in collections with the index value 0.
+Thus, to get the value for the first item in the list, we must use index 0.
+
+    ```python
+    >>> print(SampleIDs[0])
+    'DW-NP-03-16'
+    ```
+OK, that makes sense now, but it may take some getting used to...
+3. We can find the length of a list using the `len()` function.
+
+    ```python
+    >>> len(SampleIDs)
+    4
+    ```
+Just as expected, there are 4 values in our list and `len(SampleIDs)` returns a value of 4.
+4. If we know the length of the list, we can now use it to find the value of the last item in the list, right?
+
+    ```python
+    >>> print(SampleIDs[4])
+    ---------------------------------------------------------------------------
+    IndexError                                Traceback (most recent call last)
+    <ipython-input-34-946b174fe444> in <module>()
+    ----> 1 print(SampleIDs[4])
+
+    IndexError: list index out of range
+    ```
+What, an `IndexError`?
+    
 
 ## The concept of objects
