@@ -88,7 +88,6 @@ At the minimum, you should include what the script does, your name, and the date
 Let's add some basic information.
 
     ```python
-    #!/usr/bin/env python3
     '''sampleinfo.py
     
     A simple Python script to print information for a rock sample on the screen.
