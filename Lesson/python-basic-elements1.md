@@ -4,9 +4,9 @@
 Like the previous lesson, this lesson is inspired by the [Programming in Python lessons](https://v4.software-carpentry.org/python/index.html) from the [Software Carpentry organization](http://software-carpentry.org/).
 The main sections of the lesson are below.
 
-- [Data types](#data-types-revisited) (5 minutes) - DW
-- [Lists and indices](#lists-and-indices) (15 minutes) - DW
-- [Concept of objects](#the-concept-of-objects) (5 minutes) - DW
+- [Data types](#data-types-revisited)
+- [Lists and indices](#lists-and-indices)
+- [The concept of objects](#the-concept-of-objects)
 
 ## Data types revisited
 1. We saw a bit about variables and their values in the lesson last week, and we continue today with some variables related to rock samples collected on a recent field excursion.
@@ -277,6 +277,3 @@ This means you've deleted the list contents (!).
 As you can see, the list has been reversed using the `.reverse()` method, but there is no screen output when this occurs.
 Again, if you were to assign that output to `SampleIDs` the list would get reversed, but the contents would then be assigned `None`.
 4. We won't discuss any list *attributes* because as far as I know there aren't any, but we'll encounter some very useful *attributes* of other data types in the future.
-
-## Topics still to consider
-- Index slicing
