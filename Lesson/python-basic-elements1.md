@@ -1,4 +1,4 @@
-# Introduction to some basic elements of Python (part I)
+# Basic elements of Python (part I)
 
 ## Overview
 Like the previous lesson, this lesson is inspired by the [Programming in Python lessons](https://v4.software-carpentry.org/python/index.html) from the [Software Carpentry organization](http://software-carpentry.org/).
