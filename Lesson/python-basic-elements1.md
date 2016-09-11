@@ -1,6 +1,8 @@
 # Introduction to some basic elements of Python (part I)
 
 ## Overview
+Like the previous lesson, this lesson is inspired by the [Programming in Python lessons](https://v4.software-carpentry.org/python/index.html) from the [Software Carpentry organization](http://software-carpentry.org/).
+The main sections of the lesson are below.
 
 - [Data types](#data-types-revisited) (5 minutes) - DW
 - [Lists and indices](#lists-and-indices) (15 minutes) - DW
@@ -146,6 +148,90 @@ Just as expected, there are 4 values in our list and `len(SampleIDs)` returns a 
     IndexError: list index out of range
     ```
 What, an `IndexError`?
-    
+That's right, since our list starts with index 0 and has 4 values, the index of the last item in the list is `len(SampleIDs) - 1`.
+That isn't ideal, but fortunately there's a nice trick in Python to find the last item in a list.
+
+    ```python
+    >>> print(SampleIDs)
+    ['DW-NP-03-16', 'DW-NP-12-16', 'DW-NP-33-16', 'DW-NP-48-16']
+    >>> print(SampleIDs[-1])
+    'DW-NP-48-16'
+    >>> print(SampleIDs[-4])
+    'DW-NP-03-16'
+    ```
+Yes, in Python you can go backwards through lists by using negative index values.
+Index -1 gives the last value in the list and index `-len(SampleIDs)` would give the first.
+Of course, you still need to keep the index values within their ranges.
+
+    ```python
+    >>> print(SampleIDs[-5])
+    ---------------------------------------------------------------------------
+    IndexError                                Traceback (most recent call last)
+    <ipython-input-38-ac2327014588> in <module>()
+    ----> 1 print(SampleIDs[-5])
+
+    IndexError: list index out of range
+    ```
+5. Another nice feature of lists is that they are *mutable*, meaning that the values in a list that has been defined can be modified.
+Consider a list of the rock types corresponding to the sample IDs in the `SampleIDs` list.
+
+    ```python
+    >>> SampleRockTypes = ['Augen gneiss', 'Leucogranite', 'Quartzite', 'Mica schst']
+    >>> print(SampleRockTypes)
+    ['Augen gneiss', 'Leucogranite', 'Quartzite', 'Mica schst']
+    ```
+Now as we saw before, the rock types for sample DW-NP-48-16 should be 'Mica schist', not 'Mica schst'.
+Fortunately, this is an easy fix.
+We simply replace the value at the corresponding location in the list with the correct definition.
+
+    ```python
+    >>> SampleRockTypes[3] = 'Mica schist'
+    >>> print(SampleRockTypes)
+    ['Augen gneiss', 'Leucogranite', 'Quartzite', 'Mica schist']
+    ```
+6. Lists also do not need to have only one type of data.
+Let's consider that in addition to having a list of each sample ID, sample number, rock type, etc. we would like to have a list of all of the values for sample 'DW-NP-48-16'.
+
+    ```python
+    >>> Sample48 = [SampleID, SampleNumber, SampleMassLbs, SampleRockType]
+    >>> print(Sample48)
+    ['DW-NP-48-16', 48, 6.89, 'Mica schist']
+    ```
+Here we have one list with 3 different type of data in it.
+We can confirm this using the `type()` function.
+
+    ```python
+    >>> type(Sample48)
+    list
+    >>> type(Sample48[0])    # The sample ID
+    str
+    >>> type(Sample48[1]     # The sample number
+    int
+    >>> type(Sample48[2])    # The sample mass
+    float
+    ```
+7. Finally, we can add and remove values from lists to change their lengths.
+Let's consider that we no longer want to include the first value in the `SampleIDs` list.
+
+    ```python
+    >>> print(SampleIDs)
+    ['DW-NP-03-16', 'DW-NP-12-16', 'DW-NP-33-16', 'DW-NP-48-16']
+    >>> del SampleIDs[0]
+    >>> print(SampleIDs)
+    ['DW-NP-12-16', 'DW-NP-33-16', 'DW-NP-48-16']
+    ```
+`del` allows values in lists to be removed.
+It can also be used to delete values from memory in Python.
+If we would instead like to add a few samples to the `SampleIDs` list, we can do so as follows.
+
+    ```python
+    >>> SampleIDs.append('DW-NP-27-16')
+    >>> SampleIDs.append('DW-NP-51-16')
+    >>> print(SampleIDs)
+    ['DW-NP-12-16', 'DW-NP-33-16', 'DW-NP-48-16', 'DW-NP-27-16', 'DW-NP-51-16']
+    ```
+As you can see, we add values one at a time using `SampleIDs.append()`.
+`list.append()` is called a method in Python, which is a function that works for a given data type (a list in this case).
+We'll see a bit more about these below.
 
 ## The concept of objects
