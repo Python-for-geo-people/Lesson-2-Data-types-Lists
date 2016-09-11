@@ -4,13 +4,13 @@ We will also continue learning how to use the Course Environment and version con
 
 ## Lesson overview 
 
-- [Intro to version control and GitHub](Lesson/intro-to-GitHub.md)
-- [Logging into GitHub](Lesson/log-in-GitHub.md) 
-- [Classroom for GitHub](Lesson/GitHub-classroom.md)
-- [Intro to some basic elements of Python (part I)](Lesson/python-basic-elements1.md)
-- [Writing script files](Lesson/writing-scripts.md)
-- [Working on the assignments](Lesson/working-on-assignment.md)
-- [Play time - Exercise 2](https://github.com/Python-for-geo-people/Exercise-2)
+1. [Intro to version control and GitHub](Lesson/intro-to-GitHub.md)
+2. [Logging into GitHub](Lesson/log-in-GitHub.md) 
+3. [Classroom for GitHub](Lesson/GitHub-classroom.md)
+4. [Intro to some basic elements of Python (part I)](Lesson/python-basic-elements1.md)
+5. [Writing script files](Lesson/writing-scripts.md)
+6. [Working on the assignments](Lesson/working-on-assignment.md)
+7. [Exercise 2](https://github.com/Python-for-geo-people/Exercise-2)
  
 
 
