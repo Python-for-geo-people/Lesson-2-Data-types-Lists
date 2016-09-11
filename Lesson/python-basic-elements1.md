@@ -11,7 +11,7 @@ The main sections of the lesson are below.
 ## Data types revisited
 1. We saw a bit about variables and their values in the lesson last week, and we continue today with some variables related to rock samples collected on a recent field excursion.
 For a given rock sample, the standard for assigning a sample identification value is to use the format `PE-LO-NU-YR`, where `PE` is for the first and last initials of the person that collected the sample, `LO` is a two-letter abbreviation for the sample location, `NU` is the sample number on that excursion, and `YR` is the last two digits of the year in which the sample was collected.
-We can store this information and some additional information about the samples in Python as follows:
+We can store this ipnformation and some additional information about the samples in Python as follows:
 
     ```python
     SampleID = 'DW-NP-48-16'
@@ -231,7 +231,51 @@ If we would instead like to add a few samples to the `SampleIDs` list, we can do
     ['DW-NP-12-16', 'DW-NP-33-16', 'DW-NP-48-16', 'DW-NP-27-16', 'DW-NP-51-16']
     ```
 As you can see, we add values one at a time using `SampleIDs.append()`.
-`list.append()` is called a method in Python, which is a function that works for a given data type (a list in this case).
+`list.append()` is called a *method* in Python, which is a function that works for a given data type (a list in this case).
 We'll see a bit more about these below.
 
 ## The concept of objects
+Python is one of a number of computer programming languages that are called "object-oriented languages".
+It took me quite some time to understand what this meant, but the simple explanation is that we can consider the variables that we define to be "objects" that can contain both data known as *attributes* and a specific set of functions (*methods*).
+The previous sentence could take quite some time to understand by itself, but using an example the concept of "objects" is much easier to understand.
+1. Let's consider our list `SampleIDs`.
+As we know, we already have data in the list `SampleIDs`, and we can modify that data using built-in *methods* such as `SampleIDs.append()`.
+We can also do other things such as count the number of times a value occurs in a list, or where it occurs.
+
+    ```python
+    >>> SampleIDs.count('DW-NP-27-16')    # The count method counts the number of occurences of a value
+    1
+    >>> SampleIDs.index('DW-NP-27-16')    # The index method gives the index value of an item in a list
+    3
+    ```
+The good news here is that our selected sample ID is only in the list once.
+Should we need to modify it for some reason, we also now know where it is in the list (index `3`).
+2. There are two other common methods for lists that we need to see.
+First, there is the `.sort()` method, used to sort values in a list.
+As you can see from when we appended the additional two sample IDs earlier, our list no longer has sample IDs in increasing order.
+We can fix that.
+
+    ```python
+    >>> SampleIDs.sort()
+    >>> print(SampleIDs)
+    ['DW-NP-12-16', 'DW-NP-27-16', 'DW-NP-33-16', 'DW-NP-48-16', 'DW-NP-51-16']
+    ```
+Yay, it works!
+A common mistake when sorting lists is to do something like `SampleIDs = SampleIDs.sort()`.
+**Do not do this!**
+When sorting with `.sort()` the `None` value is returned (this is why there is no screen ouput when running `SampleIDs.sort()`).
+If you then assign the output of `SampleIDs.sort()` to `SampleIDs` you will sort the list, but then overwrite its contents with the returned value `None`.
+This means you've deleted the list contents (!).
+3. The `.reverse()` method works the same way.
+
+    ```python
+    >>> SampleIDs.reverse()   # Notice no output here...
+    >>> print(SampleIDs)
+    ['DW-NP-51-16', 'DW-NP-48-16', 'DW-NP-33-16', 'DW-NP-27-16', 'DW-NP-12-16']
+    ```
+As you can see, the list has been reversed using the `.reverse()` method, but there is no screen output when this occurs.
+Again, if you were to assign that output to `SampleIDs` the list would get reversed, but the contents would then be assigned `None`.
+3. We won't discuss any list *attributes* because as far as I know there aren't any, but we'll encounter some very useful *attributes* of other data types in the future.
+
+## Topics still to consider
+- Index slicing
