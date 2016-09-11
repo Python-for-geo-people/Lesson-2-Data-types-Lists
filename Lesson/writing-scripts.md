@@ -20,7 +20,7 @@ As such, we can quite easily create a basic script file and test things out.
     ```python
     SampleID = "DW-NP-48-16"
     SampleWeightLbs = 6.89
-    print("Sample", SampleID, "weighs", SampleWeightLbs, "pounds.")
+    print("Sample", SampleID, "weighs", SampleWeightLbs, "pounds")
     ```
 2. Save this script file as `sampleinfo.py` in your home directory `/home/geo' by clicking on **File -> Save** in the menu bar of the **gedit** window.
 Click on the **Home** icon on the top left of the **Save As** window that appears, and enter the file name as `sampleinfo.py`.
@@ -31,7 +31,7 @@ Before pressing enter on the second line, what do you expect to see as output wh
     ```python
     >>> cd
     >>> %run sampleinfo.py
-    Sample DW-NP-48-16 weighs 6.89 pounds.
+    Sample DW-NP-48-16 weighs 6.89 pounds
     ```
 No surprises here.
 The script simply executes the commands exactly as you would have if you had typed them in to the IPython interpreter.
@@ -42,14 +42,14 @@ Go back to **gedit** and edit the script so that it now reads
     SampleID = "DW-NP-48-16"
     SampleWeightLbs = 6.89
     SampleRockType = "Mica schist"
-    print("Sample", SampleID, "is a", SampleWeightLbs, "pound chunk of", SampleRockType, ".")
+    print("Sample", SampleID, "is a", SampleWeightLbs, "pound chunk of", SampleRockType)
     ```
 Save your changes.
 5. Once again, go back to the IPython interpreter and use the `%run` magic command to run the modified script.
 
     ```python
     >>> %run sampleinfo.py
-    Sample DW-NP-48-16 is a 6.89 pound chunk of Mica schist.
+    Sample DW-NP-48-16 is a 6.89 pound chunk of Mica schist
     ```
 
 ## General format
