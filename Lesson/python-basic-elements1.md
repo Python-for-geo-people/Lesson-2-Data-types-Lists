@@ -2,11 +2,11 @@
 
 ## Overview
 
-- [Data types](#dtypes) (5 minutes) - DW
+- [Data types](#data-types-revisited) (5 minutes) - DW
 - [Lists and indices](#lists) (15 minutes) - DW
 - [Concept of objects](#objects) (5 minutes) - DW
 
-##<a name='dtypes'></a> Data types revisited
+## Data types revisited
 1. We can start by defining a few variables.
     ```python
     ...
