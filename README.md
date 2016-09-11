@@ -10,7 +10,7 @@ We will also continue learning how to use the Course Environment and version con
 4. [Some basic elements of Python (part I)](Lesson/python-basic-elements1.md)
 5. [Writing script files](Lesson/writing-scripts.md)
 6. [Working on the assignments](Lesson/working-on-assignment.md)
-7. [Exercise 2](https://github.com/Python-for-geo-people/Exercise-2)
+7. [Exercise 2](https://classroom.github.com/assignment-invitations/a3e02d425c06db7948bcfe7ae7804317)
  
 
 
