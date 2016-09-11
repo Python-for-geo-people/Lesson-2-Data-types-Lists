@@ -1,29 +1,18 @@
 # Diving-into-Python
-Python lesson 2: Data types, lists, indices, other arithmetic operators, and creating your own scripts
-
-During the second week we will dive into Python and learn some basic elements of Python programming language. We will also continue learning how to use the
-Course Environment and version control with GitHub. 
+During the second week we will dive into Python and learn some basic elements of Python programming language.
+We will also continue learning how to use the Course Environment and version control with GitHub. 
 
 ## Lesson overview 
 
-- [Intro to version control and GitHub](Lesson/intro-to-GitHub.md) (30 minutes) - HT
-- [Log into GitHub](Lesson/log-in-GitHub.md) 
-- [Classroom for GitHub](Lesson/GitHub-classroom.md) (5 minutes) - DW
-- [Intro to some basic elements of Python (part I)](Lesson/python-basic-elements1.md) (25 minutes) - DW
-- [Writing script files](Lesson/writing-scripts.md) (10-15 minutes) - DW
+- [Intro to version control and GitHub](Lesson/intro-to-GitHub.md)
+- [Logging into GitHub](Lesson/log-in-GitHub.md) 
+- [Classroom for GitHub](Lesson/GitHub-classroom.md)
+- [Intro to some basic elements of Python (part I)](Lesson/python-basic-elements1.md)
+- [Writing script files](Lesson/writing-scripts.md)
 - [Working on the assignments](Lesson/working-on-assignment.md)
-- [Play time - Exercise 2](https://github.com/Python-for-geo-people/Exercise-2) (15-20 minutes) - DW/HT
+- [Play time - Exercise 2](https://github.com/Python-for-geo-people/Exercise-2)
  
-### Notes for instructors
-We should probably provide some kind of simple template here for writing **basic** Python scripts "the right way".
-It could be a simplified version of [something like this](https://gist.github.com/nhoffman/3006600).
-For me, this would include (at least):
 
-1. A comment block at the start of the script using block comments (`'''`). This should give the basic information about what the script does in a semi-Pythonic way.
-2. Inline comments (`#`) for the different sections of the code (and possibly on most lines) to clearly state how the code works.
-
-To start, I think it would be good to avoid things like using a `main()` function and some of the other Python practices that might make it harder to understand how the script works in a simple way.
-Avoiding `main()` is also nice because when students use **Spyder** they will be able to see the variable values in the variable browser.
 
 
 # BELOW GOES TO NEXT WEEK!
@@ -139,4 +128,3 @@ What happens here? Well, in this case, we use a special function called `range()
     [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9.]
     ```
 So, what happened? We first create and array of length 10 and fill it with zeros using `np.zeros()`. Then, we loop over 10 values using the `range()` function and add each value to the existing location in `myarray`. What would happen if we ran this for loop a second time?
-
