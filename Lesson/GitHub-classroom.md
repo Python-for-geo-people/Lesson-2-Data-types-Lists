@@ -23,7 +23,7 @@ More on that below.
 
 ## Next steps ...
 
-Continue with the [tutorial](working-on-assignment.md).
+Continue with the [lesson](../README.md).
 
 ### Footnotes
 [1]: Note that the first time you accept an assignment you will need to authorize the application on Github. This will not work if you have not verified your email address for your Github account.<br/>
