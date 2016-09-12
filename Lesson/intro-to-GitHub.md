@@ -45,7 +45,7 @@ name 'Git - Hub' originates from.
 ###Why to use it?
 
 One of the most obvious reasons why to use version control is to avoid the situation illustrated in the [comics above](#motivation), i.e. to keep track of the full 
-history of your changes in a systematic way without the need to have multiple versions of the same file. One of the most useful features of version control is the 
+history of your changes in a systematic way without the need to have multiple versions of the same file. One really useful feature of version control is the 
 ability to "go back in time", i.e. if something goes wrong, you can start from some earlier version of the file when everything was still working. You can also compare
 the differences between versions and see what has changed. In addition aforementioned aspects, version control makes possible for multiple people to
 work on the same file or project at the same time while still keeping track of their own changes to the files. 
