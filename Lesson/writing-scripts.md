@@ -23,7 +23,7 @@ As such, we can quite easily create a basic script file and test things out.
     SampleWeightLbs = 6.89
     print("Sample", SampleID, "weighs", SampleWeightLbs, "pounds")
     ```
-2. Save this script file as `sampleinfo.py` in your home directory `/home/geo' by clicking on **File -> Save** in the menu bar of the **gedit** window.
+2. Save this script file as `sampleinfo.py` in your home directory `/home/geo` by clicking on **File -> Save** in the menu bar of the **gedit** window.
 Click on the **Home** icon on the top left of the **Save As** window that appears, and enter the file name as `sampleinfo.py`.
 Click the `Save` button on the lower right of the window to save the file.
 3. Return to your IPython interpreter window (or start a new one if you have closed it), change the directory in IPython to the home directory by typing `cd`, and run the script using the `%run` magic command in IPython.
