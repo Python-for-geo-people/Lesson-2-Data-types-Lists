@@ -31,8 +31,8 @@ It may take a minute or two to open.
 In Windows you should have an application you can launch from the Start Menu, and on a Mac you can open the Anaconda Launcher on your Desktop and find **Spyder** there.
 - **Open the "starter" code in Spyder**. Once you open Spyder you should see something like the window below.
 
-    ![Spyder](https://github.com/Python-for-geo-people/Diving-into-Python/blob/master/img/Spyder.png)
-    <br/>
+![Spyder](../img/Spyder.png)
+    
 You can open your code in Spyder by going to **File -> Open...** in the menu bar.
 Select the code you downloaded and you're ready to start editing.
 - **Make changes and test**.
@@ -59,7 +59,7 @@ To edit your `README.md` file, you can do the following:
 Click on the `README.md` in the list of files in the assignment repository, and then click on the **pencil icon** in the toolbar above the `README.md` to edit the document.
 The toolbar should look like the image below.
 
-    ![Editing toolbar](../img/Edit-README.png)
+![Editing toolbar](../img/Edit-README.png)
 
 2. **Make your changes**.
 After you click on the **pencil icon** you will see the Markdown version of the assignment document, and this is what you should edit. 
@@ -74,7 +74,7 @@ formatted the way you expect.
 Markdown is pretty easy to use, but sometimes things don't end up looking the way you might like.
 **Preview changes** is in the editing bar above the document text, as shown below.
 
-    ![Preview changes](../img/Preview-changes.png)
+![Preview changes](../img/Preview-changes.png)
 
 4. **Save your changes**.
 After you are done editing, you can save your changes by adding a commit message and clicking on the **Commit changes** button. 
@@ -95,7 +95,7 @@ One of the best things about using GitHub is that you are able to go back to pre
 For instance, if you decide to remove a section from your Python code and later realize this was [a huge mistake](https://youtu.be/46Kv4rBJi68), you will be able to go back to earlier versions of the Python code that have been saved in GitHub.
 To go back to an earlier version simply click on the **History button** for one of the files in your GitHub repository, as shown below.
 
-    ![History button](../img/Edit-README.png)
+![History button](../img/Edit-README.png)
 Once you pull up the document history you can click on the hash (the set of 7 numbers/letters listed to the right of a given version) to see the changes made for that save, or click on the `<>` button to see the version of the file at that time in the past.
 
 - If you want to put you images into your answers document (`README.md`), I encourage you to upload copies of the images to the `Images` directory and then embed them using the Markdown format for images:
