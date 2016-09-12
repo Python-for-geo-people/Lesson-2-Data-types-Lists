@@ -31,7 +31,8 @@ It may take a minute or two to open.
 In Windows you should have an application you can launch from the Start Menu, and on a Mac you can open the Anaconda Launcher on your Desktop and find **Spyder** there.
 - **Open the "starter" code in Spyder**. Once you open Spyder you should see something like the window below.
 
-    ![Spyder](../img/Spyder.png)<br/>
+    ![Spyder](https://github.com/Python-for-geo-people/Diving-into-Python/blob/master/img/Spyder.png)
+    <br/>
 You can open your code in Spyder by going to **File -> Open...** in the menu bar.
 Select the code you downloaded and you're ready to start editing.
 - **Make changes and test**.
