@@ -115,3 +115,7 @@ If you would like to make nicer images to include in your answers to the problem
     ```
 If your code is working, this should result in your plot popping up in a separate window and when you save the plot it will be at a higher resolution than the equivalent in the IPython console in Spyder.
 It is always nice to produce the best looking plots you can!
+
+## The next steps
+
+We're now ready to [proceed to the next section and start working on exercise 2](../README.md).
