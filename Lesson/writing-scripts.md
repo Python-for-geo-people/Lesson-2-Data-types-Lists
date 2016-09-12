@@ -27,7 +27,7 @@ As such, we can quite easily create a basic script file and test things out.
 Click on the **Home** icon on the top left of the **Save As** window that appears, and enter the file name as `sampleinfo.py`.
 Click the `Save` button on the lower right of the window to save the file.
 3. Return to your IPython interpreter window (or start a new one if you have closed it), change the directory in IPython to the home directory by typing `cd`, and run the script using the `%run` magic command in IPython.
-Before pressing enter on the second line, what do you expect to see as output when the script runs?
+Before pressing **Enter** on the second line, **what do you expect to see as output when the script runs**?
 
     ```python
     >>> cd
@@ -55,7 +55,9 @@ Don't worry, we'll cover a much better way to edit and test scripts later in tod
     ```
 
 ## Writing our scripts the "right" way
-So we have an example above of a Python script that works, but there are a number of additions that should be made to improve even this simple script.
+The script above works, but one of the big advantages of using scripts is the ability to include comments that describe what the code does.
+As your programs get longer and more complicated, comments and other changes to how you write the code will help make sure you (and other users) can understand what the code does.
+Below are some suggestions to make sure your code is easy to understand.
 
 1. **Add inline comments to the code to explain what different sections do**.
 It may seem obvious how the code should work, but if you share it with another person perhaps they will not feel the same way.
@@ -64,28 +66,42 @@ It is a very good idea to make the code as easy to read as possible for people.
     ```python
     # Information for sample 48 from the 2016 Nepal (NP) field excursion collected by Dave Whipp (DW)
     # Sample 48 was from the footwall of the MCT just north of where the Nyadi river joins the Marsyandi
+    # Basic sample information
+    SampleID = "DW-NP-48-16"
+    SampleRockType = "Mica schist"
+    # Sample weight given in pounds (sorry, most of the world)
+    SampleWeightLbs = 6.89
+    # Print basic information about this sample to the screen
+    print("Sample", SampleID, "is a", SampleWeightLbs, "pound chunk of", SampleRockType)
+    ```
+Here, we have provided a great deal more information about the data in this script by adding *inline comments*.
+Comments in Python are not executed by the computer, but provide useful information for people reading the script.
+Inline comments begin with a `#` (number sign or hash), and all characters that follow on that line will be ignored by Python.
+Adding comments to scripts is essential for scientists like ourselves to both help us remember how a script works and to make it easier to share with colleagues.
+It is best to get into the habit of adding comments as you write.
+2. **Use blank lines to visually divide your script**.
+Perhaps it is obvious, but Python will ignore blank lines in a script.
+They don't matter to Python, but they are very helpful to users.
+
+    ```python
+    # Information for sample 48 from the 2016 Nepal (NP) field excursion collected by Dave Whipp (DW)
+    # Sample 48 was from the footwall of the MCT just north of where the Nyadi river joins the Marsyandi
     
-    # Sample basic information
+    # Basic sample information
     SampleID = "DW-NP-48-16"
     SampleRockType = "Mica schist"
     
     # Sample weight given in pounds (sorry, most of the world)
     SampleWeightLbs = 6.89
-
-    # Write basic information about this sample to the screen
+    
+    # Print basic information about this sample to the screen
     print("Sample", SampleID, "is a", SampleWeightLbs, "pound chunk of", SampleRockType)
     ```
-Here, we have provided a great deal more information about the data in this script by adding inline comments.
-Comments in Python are not executed by the computer, but provide useful information for people reading the script.
-Inline comments begin with a `#` (number sign or hash), and all characters that follow on that line will be ignored by Python.
-Adding comments to scripts is essential for scientists like ourselves to both help us remember how a script works and to make it easier to share with colleagues.
-It is best to get into the habit of adding comments as you write.
-Also, notice that you're free to use blank lines to visually break up your script.
-Python ignores blank lines, but they're very helpful for users.
-2. **Add a block comment section at the start of the script to state its purpose, how it is run, who wrote it, and possibly some licencing information**.
-In contrast to the inline comments above, a block comment at the top of the script is intended to help users run the code and be aware of its author (and licensing restrictions stated by the author).
+Dividing even a short script into section using blank lines makes it much easier to read the code.
+3. **Add a block comment section at the start of the script to state its purpose, how it is run, who wrote it, and possibly some licencing information**.
+In contrast to the inline comments above that describe the different sections of the code, a *block comment* at the top of the script is intended to help users run the code and be aware of its author (and licensing restrictions stated by the author).
 At the minimum, you should include what the script does, your name, and the date in the block comments at the start of script files.
-Let's add some basic information.
+Let's add some of this basic information.
 
     ```python
     '''sampleinfo.py
@@ -96,27 +112,27 @@ Let's add some basic information.
     
     David Whipp - 12.9.2016
     '''
-    
+
     # Information for sample 48 from the 2016 Nepal (NP) field excursion collected by Dave Whipp (DW)
     # Sample 48 was from the footwall of the MCT just north of where the Nyadi river joins the Marsyandi
     
-    # Sample basic information
+    # Basic sample information
     SampleID = "DW-NP-48-16"
     SampleRockType = "Mica schist"
     
     # Sample weight given in pounds (sorry, most of the world)
     SampleWeightLbs = 6.89
-
-    # Write basic information about this sample to the screen
+    
+    # Print basic information about this sample to the screen
     print("Sample", SampleID, "is a", SampleWeightLbs, "pound chunk of", SampleRockType)
     ```
-Here we have added the basic information to the top of our script file using block comments.
+Here we have added the basic information to the top of our script file using *block comments*.
 Block comments start with `'''` and end with `'''`.
-Everything between the triple quotes will be ignored when the script is run.
+Everything between the triple quotes will be ignored when the script is run, even if the text is spread over multiple lines.
 In our case, the script is simple, but many Python programs have optional values that can be used by the code when it is run, making the usage statement crucial.
 Another example to consider is using a formal software license in the code to state the conditions under which the code can be used or modified.
 There are many helpful web resources to [teach you about software licenses](https://tldrlegal.com/) and [how to choose a license](http://choosealicense.com/).
-My preference is the [MIT License](https://opensource.org/licenses/MIT), which is simple and allows software use by anyone.
+In most cases my preference is the [MIT License](https://opensource.org/licenses/MIT), which is simple and allows software use by anyone.
 An example is below.
 
     ```python
@@ -148,23 +164,27 @@ An example is below.
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
     '''
-    
+
     # Information for sample 48 from the 2016 Nepal (NP) field excursion collected by Dave Whipp (DW)
     # Sample 48 was from the footwall of the MCT just north of where the Nyadi river joins the Marsyandi
     
-    # Sample basic information
+    # Basic sample information
     SampleID = "DW-NP-48-16"
     SampleRockType = "Mica schist"
     
     # Sample weight given in pounds (sorry, most of the world)
     SampleWeightLbs = 6.89
-
-    # Write basic information about this sample to the screen
+    
+    # Print basic information about this sample to the screen
     print("Sample", SampleID, "is a", SampleWeightLbs, "pound chunk of", SampleRockType)
     ```
-3. **Start with a shebang**.
+In this case I have taken the license information directly from an [online software license template](http://choosealicense.com/licenses/mit/).
+Software licensing is an important consideration when posting your software in online repositories such as GitHub.
+It is one way to protect your intellectual property from being used in ways you do not wish.
+4. **Start with a shebang**.
 This part gets a bit more complicated, but we can add one line above our first block comment to help make the script easier to run for users.
-
+Here, we add a line at the very top of the script that starts with `#!` (often referred to as shebang).
+The meaning of this line is given below the script.
 
     ```python
     #!/usr/bin/env python3
@@ -176,17 +196,27 @@ This part gets a bit more complicated, but we can add one line above our first b
     
     David Whipp - 12.9.2016
     '''
-    
+
     # Information for sample 48 from the 2016 Nepal (NP) field excursion collected by Dave Whipp (DW)
     # Sample 48 was from the footwall of the MCT just north of where the Nyadi river joins the Marsyandi
     
-    # Sample basic information
+    # Basic sample information
     SampleID = "DW-NP-48-16"
     SampleRockType = "Mica schist"
     
     # Sample weight given in pounds (sorry, most of the world)
     SampleWeightLbs = 6.89
-
-    # Write basic information about this sample to the screen
+    
+    # Print basic information about this sample to the screen
     print("Sample", SampleID, "is a", SampleWeightLbs, "pound chunk of", SampleRockType)
     ```
+Basically, this additional line allows users to run the script in a terminal window without having to use the `%run` magic command from within IPython or explicitly launch a new Python interpreter.
+The line states that when the script is executed in a terminal it should use the default system Python 3 interpreter.
+We'll leave it at that for now, but if you have questions let us know.
+
+## The next steps
+As we continue in the course we will be creating more advanced Python scripts that include more complex code logic and other features we've not yet learned.
+With these, we'll also learn a few tips for incorporating them in our scripts.
+However, an expectation in this course is that you stick to the general template described above when writing your code, which means including appropriate use of inline comments, blank lines, block comments, and starting with a shebang.
+
+We're now ready to [proceed to the next section](../README.md).
