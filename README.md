@@ -1,4 +1,4 @@
-# Diving-into-Python
+# Lesson 2: Diving into Python
 During the second week we will dive into Python and learn some basic elements of Python programming language.
 We will also continue learning how to use the Course Environment and version control with GitHub. 
 
