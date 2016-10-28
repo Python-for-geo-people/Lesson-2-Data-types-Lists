@@ -3,4 +3,8 @@ If you're reading this, you have presumably found your way to GitHub, but perhap
 
 1. You can log in to GitHub by clicking the **Sign In** button at the top right of this page.
 2. Enter the user name and password for your GitHub account.
-3. Now continue with the [lesson](../README.md)
+
+## 
+**Next**: [Classroom for GitHub](GitHub-classroom.md)<br/>
+**Home**: [Lesson 2 main page](https://github.com/Python-for-geo-people/Lesson-2-Data-types-Lists)<br/>
+**Previous**: [Intro to version control and GitHub](intro-to-GitHub.md)
