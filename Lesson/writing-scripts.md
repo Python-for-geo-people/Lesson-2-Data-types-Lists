@@ -214,9 +214,12 @@ Basically, this additional line allows users to run the script in a terminal win
 The line states that when the script is executed in a terminal it should use the default system Python 3 interpreter.
 We'll leave it at that for now, but if you have questions let us know.
 
-## The next steps
+## Page summary
 As we continue in the course we will be creating more advanced Python scripts that include more complex code logic and other features we've not yet learned.
 With these, we'll also learn a few tips for incorporating them in our scripts.
 However, an expectation in this course is that you stick to the general template described above when writing your code, which means including appropriate use of inline comments, blank lines, block comments, and starting with a shebang.
 
-We're now ready to [proceed to the next section](../README.md).
+## 
+**Next**: [Working on the assignments](working-on-assignment.md)<br/>
+**Home**: [Lesson 2 main page](https://github.com/Python-for-geo-people/Lesson-2-Data-types-Lists)<br/>
+**Previous**: [Some basic elements of Python, part 1](python-basic-elements1.md)
