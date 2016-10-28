@@ -129,5 +129,5 @@ such as adding new features or auditing old ones.
 - [A list of resources for learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 
 ## 
-**Next**: [Logging into GitHub](https://github.com/Python-for-geo-people/Exercise-1)<br/>
+**Next**: [Logging into GitHub](log-in-GitHub.md)<br/>
 **Home**: [Lesson 2 main page](https://github.com/Python-for-geo-people/Lesson-2-Data-types-Lists)<br/>
