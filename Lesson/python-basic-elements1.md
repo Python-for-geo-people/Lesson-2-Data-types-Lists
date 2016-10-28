@@ -278,5 +278,7 @@ As you can see, the list has been reversed using the `.reverse()` method, but th
 Again, if you were to assign that output to `SampleIDs` the list would get reversed, but the contents would then be assigned `None`.
 4. We won't discuss any list *attributes* because as far as I know there aren't any, but we'll encounter some very useful *attributes* of other data types in the future.
 
-## The next steps...
-Now you can return to the [overview of the lesson](../README.md) to continue.
+## 
+**Next**: [Writing script files](writing-scripts.md)<br/>
+**Home**: [Lesson 2 main page](https://github.com/Python-for-geo-people/Lesson-2-Data-types-Lists)<br/>
+**Previous**: [Classroom for GitHub](GitHub-classroom.md)
