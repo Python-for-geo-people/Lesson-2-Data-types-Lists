@@ -21,11 +21,11 @@ When you click the link, you will be taken to a web page where you can accept th
 When you accept the assignment a copy of it will be made in your personal GitHub repositories[2], and you will be asked to make changes to the Python code and main document for each assignment.
 More on that below.
 
+### Footnotes
+[1]: Note that the first time you accept an assignment you will need to authorize the application on Github. This will not work if you have not verified your email address for your Github account.<br/>
+[2]: A repository on Github is basically like a folder for a given assignment/project.
+
 ## 
 **Next**: [Some basic elements of Python, part 1](python-basic-elements1.md)<br/>
 **Home**: [Lesson 2 main page](https://github.com/Python-for-geo-people/Lesson-2-Data-types-Lists)<br/>
 **Previous**: [Logging into GitHub](log-in-GitHub.md)
-
-### Footnotes
-[1]: Note that the first time you accept an assignment you will need to authorize the application on Github. This will not work if you have not verified your email address for your Github account.<br/>
-[2]: A repository on Github is basically like a folder for a given assignment/project.
