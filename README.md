@@ -13,7 +13,7 @@ We will also continue learning how to use the Course Environment and version con
   - [The concept of objects](https://github.com/Python-for-geo-people/Diving-into-Python/blob/master/Lesson/python-basic-elements1.md#the-concept-of-objects)
 5. [Writing script files](https://github.com/Python-for-geo-people/Diving-into-Python/tree/master/Lesson/writing-scripts.md)
 6. [Working on the assignments](https://github.com/Python-for-geo-people/Diving-into-Python/tree/master/Lesson/working-on-assignment.md)
-7. [Exercise 2](https://classroom.github.com/assignment-invitations/a3e02d425c06db7948bcfe7ae7804317)
+7. [Exercise 2: Writing scripts and using GitHub](https://classroom.github.com/assignment-invitations/a3e02d425c06db7948bcfe7ae7804317)
 
 ## Resources
 - Web pages
